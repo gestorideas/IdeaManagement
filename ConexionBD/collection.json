@@ -1,0 +1,27 @@
+use magiles
+
+db.ideas.insert(
+{
+"body" : "Esta es una idea de prueba bla bla bla",
+"author" : "Emilio",
+"title" : "Idea Mágica",
+"tags" : [
+"Tecnología",
+"Ciencia"
+],
+"comments" : [
+{
+"body" : "Vaya Mierda!",
+"author" : "Ismael"
+},
+{
+"body" : "Pero para que?",
+"author" : "Marcos"
+},
+{
+"body" : "No me gusta",
+"author" : "Jessica"
+},
+],
+"date" : new Date()
+});
