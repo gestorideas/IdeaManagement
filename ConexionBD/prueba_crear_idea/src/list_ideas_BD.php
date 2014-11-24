@@ -12,8 +12,10 @@ foreach ($retrieved as $obj) {
     echo "<td>";echo substr($obj['body'],0,20);echo " ...</td>";
     echo "<td>";echo $obj_date;echo "</td>";
     echo "<td>";
-    echo "<label id='show' value=$_id></label>";
-    echo "<button type='submit' class='btn btn-primary' name='show' value='Show' onclick='show()'>Show</button>";
+    echo "<form action='edit_idea.php' method='get' role='form'>";
+    echo "<input type='hidden' name='lab' value=$_id />";
+    echo "<input type='submit' class='btn btn-primary' value='show'></button>";
+    echo "</form>";
     echo "</td>";
     echo "</tr>";
 }
