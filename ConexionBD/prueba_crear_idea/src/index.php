@@ -39,32 +39,6 @@
             <?php include 'menu.php' ?>
 			<div class="row clearfix">
 				<div class="col-md-12 column">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>
-                                Author
-                            </th>
-                            <th>
-                                Idea
-                            </th>
-                            <th>
-                                Description
-                            </th>
-                            <th>
-                                Date
-                            </th>
-                            <th>
-                                Action
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <?php
-                        include 'list_ideas_BD.php';
-                        ?>
-                        </tbody>
-                    </table>
 
 				</div>
 			</div>

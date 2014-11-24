@@ -39,38 +39,31 @@
             <?php include 'menu.php' ?>
             <div class="row clearfix">
                 <div class="col-md-12 column">
-
-                    <div class="row clearfix">
-                        <div class="col-md-12 column">
-                            <table class="table">
-                                <thead>
-                                <tr>
-                                    <th>
-                                        #
-                                    </th>
-                                    <th>
-                                        Idea
-                                    </th>
-                                    <th>
-                                        Description
-                                    </th>
-                                    <th>
-                                        Date
-                                    </th>
-                                    <th>
-                                        Action
-                                    </th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                    <?php
-                                    include 'dashboard_BD.php';
-                                    ?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Idea
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Select for delete
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php include 'delete_BD.php'; ?>
+                        </tbody>
+                    </table>
+                    <button type="submit" class="btn btn-primary">Delete Ideas</button>
                 </div>
             </div>
         </div>
