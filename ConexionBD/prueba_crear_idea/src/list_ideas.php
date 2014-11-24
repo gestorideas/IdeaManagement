@@ -39,6 +39,11 @@
             <?php include 'menu.php' ?>
 			<div class="row clearfix">
 				<div class="col-md-12 column">
+                    <script type="text/javascript">
+                        function show(){
+                            alert($("#show").attr("value"));
+                        }
+                    </script>
                     <table class="table">
                         <thead>
                         <tr>

@@ -21,12 +21,13 @@ echo '<nav class="navbar navbar-default" role="navigation">
 								<li>
 									<a href="delete.php">Delete Idea</a>
 								</li>
+								<!--
 								<li>
 									<a href="#">Edit Idea</a>
 								</li>
 								<li class="divider">
 								</li>
-								<!--
+
 								<li>
 									<a href="#">Separated link</a>
 								</li>
@@ -45,11 +46,11 @@ echo '<nav class="navbar navbar-default" role="navigation">
 						</div> <button type="submit" class="btn btn-default">Search</button>
 					</form>
 					<ul class="nav navbar-nav navbar-right">
-						<!--
+
 						<li>
-							<a href="#">Link</a>
+							<a>User Name</a>
 						</li>
-					-->
+
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Profile<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
