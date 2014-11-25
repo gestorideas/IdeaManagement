@@ -468,7 +468,9 @@ cite {
 .text-center {
   text-align: center;
 }
-
+.text-justify {
+    text-align: justify;
+}
 h1,
 h2,
 h3,
