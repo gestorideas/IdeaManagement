@@ -39,7 +39,7 @@
             <?php include 'menu.php' ?>
             <div class="row clearfix">
                 <div class="col-md-12 column">
-                        <?php include 'CRUD_idea.php'?>
+                    <?php include 'comment_idea_BD.php'?>
                 </div>
             </div>
         </div>

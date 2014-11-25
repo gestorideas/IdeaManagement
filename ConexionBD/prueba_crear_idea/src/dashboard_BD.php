@@ -8,7 +8,7 @@ $i = 0;
 foreach ($retrieved as $obj) {
     $i++;
     $_id = $obj['_id'];
-    $obj_date = date(preg_replace('`(?<!\\\\)u`', $obj['date']->usec, 'Y-M-d H:i:s.u'), $obj['date']->sec);
+    $obj_date = date(preg_replace('`(?<!\\\\)u`', $obj['date']->usec, 'Y-M-d H:i'), $obj['date']->sec);
     echo "<tr>";
     echo "<td>$i</td>";
     echo "<td>";echo $obj['title'];echo "</td>";

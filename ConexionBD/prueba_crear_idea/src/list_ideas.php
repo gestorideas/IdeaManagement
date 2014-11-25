@@ -56,6 +56,9 @@
                                 Date
                             </th>
                             <th>
+                                Votes
+                            </th>
+                            <th>
                                 Action
                             </th>
                         </tr>
